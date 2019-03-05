@@ -10,7 +10,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "yarn test && yarn build"
   },
   "devDependencies": {
     "jest": "^24.1.0",
