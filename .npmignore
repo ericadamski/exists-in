@@ -2,3 +2,5 @@ __tests__
 node_modules
 .prettierrc
 .npmignore
+coverage
+*.map
